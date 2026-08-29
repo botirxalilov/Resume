@@ -1,0 +1,250 @@
+body {
+    background-color:#27B88E;
+    font-family: "Montserrat", sans-serif;
+        font-weight:bolder;
+    
+}
+.box1 {
+    width: 800px;
+    height: 900px;
+    text-align: center;
+    margin: 0 auto;
+    float: right;
+    margin-right: 300px ;
+    margin-top: 50px;
+    background-color: white;
+}
+h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    font-size: 120px;
+}
+h2{
+    text-align: center;
+    position: relative;
+        top: 200px;
+        font-size: 100px;
+}
+.block1{
+   width: 80px; 
+   height: 70px;
+border: 1px solid white;
+position: relative;
+top: 150px;
+left: 260px;
+font-size: 60PX;
+right: 50px;
+}
+.one{
+    position: relative;
+    bottom: 60px;
+    left: 5px;
+    color: white;
+}
+.block2{
+width: 150px;
+height: 70px;
+border: 1px solid white;
+position: relative;
+top: 77px;
+left: 377px;
+font-size: 60PX;
+}
+.two{
+    position: relative;
+        bottom: 60px;
+        left: 10px;
+        color: white;
+}
+.block3{
+    width: 80px;
+        height: 70px;
+        border: 1px solid white;
+        position: relative;
+        top: 5px;
+        left:560px;
+        font-size: 60PX;
+}
+.three{
+    position: relative;
+        bottom: 60px;
+        left: 5px;
+        color: white;
+    }
+.end{
+    position: relative;
+        right: 550px;
+        top: 150px;
+        white-space: nowrap;
+        color: white
+    
+
+}
+.first{
+    font-weight:bolder;
+}
+.second{
+    font-weight: 300;
+}
+img{
+    width: 170px;
+        height: 200px;
+        position: relative;
+        top: 70px;
+}
+.surname{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 70px;
+    bottom: 170px;
+    line-height: 50px;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    
+           
+}
+.name{
+    display: flex;
+        justify-content: flex-start;
+        position: relative;
+            left: 70px;
+            bottom: 150px;
+            font-size: xx-large;
+            font-family: 'Times New Roman', Times, serif;
+
+}
+.job{
+    display: flex;
+        justify-content: flex-start;
+        position: relative;
+        left: 70px;
+        bottom: 200px;
+        line-height: 50px;
+        font-size:medium;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+}
+.city{
+    display: flex;
+        justify-content: flex-start;
+        position: relative;
+        left: 70px;
+        bottom: 220px;
+        line-height: 50px;
+        font-size: medium;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+}
+.tel{
+    position: relative;
+    bottom: 290px;
+    left: 220px;
+    top: -430px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  
+
+}
+.telegram{
+display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 20px;
+    left: -70px;
+    bottom: 420px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+   
+a{
+    text-decoration: none;
+    color:darkcyan;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.git{
+display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 30px;
+    bottom: 420px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.instagram{
+    display: flex;
+        justify-content: flex-end;
+        position: relative;
+        bottom: 420px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+}
+.bio{
+position: relative;
+bottom: 380px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+}
+.edu{
+    position: relative;
+        bottom: 380px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+
+
+
+}
+.univer{
+    position: relative;
+        bottom: 380px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+}
+.fakultet{
+    position: relative;
+        bottom: 380px;
+        font-family: 'Times New Roman', Times, serif;
+}
+.skills-list{
+    position: relative;
+        bottom: 380px;
+        word-spacing: 10px;
+        font-family: 'Times New Roman', Times, serif;
+}
+.skil{
+    position: relative;
+    bottom: 380px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.skill-tag{
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.languages{
+    position: relative;
+    bottom: 380px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer{
+    position: relative;
+        bottom: 380px;
+        font-family: 'Times New Roman', Times, serif;
+}
+.fa-solid fa-phone{
+    display: flex;
+    align-items: flex-start;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* hammasi yuqoridan tekislanadi */
+    gap: 20px;
+}
