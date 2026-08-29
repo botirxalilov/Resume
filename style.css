@@ -248,3 +248,26 @@ font-size: 18px;
     /* hammasi yuqoridan tekislanadi */
     gap: 20px;
 }
+@media (max-width: 768px) {
+  .header-top {
+    flex-direction: column; /* rasm, ism, aloqa - endi ustma-ust joylashadi */
+    align-items: center;
+    text-align: center;
+  }
+
+  .name-block h1 {
+    font-size: 24px; /* telefon uchun kichikroq matn */
+  }
+
+  .contact-info {
+    align-items: center;
+  }
+
+  .about-me, .education, .skills, .projects, .languages {
+    padding: 0 20px; /* chetlardan biroz bo'sh joy, matn ekran chekkasiga yopishmasin */
+  }
+
+  .skills-list {
+    justify-content: center; /* teglar (HTML, CSS...) markazda joylashadi */
+  }
+}
