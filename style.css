@@ -249,25 +249,53 @@ font-size: 18px;
     gap: 20px;
 }
 @media (max-width: 768px) {
-  .header-top {
-    flex-direction: column; /* rasm, ism, aloqa - endi ustma-ust joylashadi */
-    align-items: center;
+  .box1 {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    float: none;
+    margin: 20px auto;
+    padding-bottom: 30px; /* pastda bo'sh joy qolsin */
+  }
+
+  h1, h2 {
+    position: static;
+    font-size: 32px; /* katta 120px/100px o'rniga kichikroq */
+    margin: 20px 0;
+  }
+
+  .block1, .block2, .block3 {
+    position: static;
+    margin: 10px auto;
+  }
+
+  .one, .two, .three {
+    position: static;
+  }
+
+  .end {
+    position: static;
+    right: auto;
+    white-space: normal;
+  }
+
+  img {
+    position: static;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .surname, .name, .job, .city, .tel,
+  .telegram, .git, .instagram,
+  .bio, .edu, .univer, .fakultet,
+  .skil, .skills-list, .languages, .footer {
+    position: static;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    justify-content: center;
     text-align: center;
-  }
-
-  .name-block h1 {
-    font-size: 24px; /* telefon uchun kichikroq matn */
-  }
-
-  .contact-info {
-    align-items: center;
-  }
-
-  .about-me, .education, .skills, .projects, .languages {
-    padding: 0 20px; /* chetlardan biroz bo'sh joy, matn ekran chekkasiga yopishmasin */
-  }
-
-  .skills-list {
-    justify-content: center; /* teglar (HTML, CSS...) markazda joylashadi */
+    margin: 8px 0;
   }
 }
